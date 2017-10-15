@@ -1,0 +1,103 @@
+body {
+    margin:0;
+    padding:0;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-image: url("images/bakery-background.png");
+
+}
+@font-face {
+    font-family: Hs;
+    src: url('/fonts/OpenSansHebrew-Regular.ttf');
+}
+.container-fluid{
+    display: flex;
+    margin-top: 4.5%;
+    margin-left: 12px;
+}
+.main-table{
+    display: flex;
+}
+.table-row{
+
+}
+.table-row > div{
+    font-family: Hs;
+    font-weight: bold;
+    border:1px solid lightgray;
+    box-sizing:border-box;
+    text-align:center;
+    padding: 25px 40px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+}
+
+.table-row > div:first-child {
+    background: linear-gradient(white 75%, #e0e0e0);
+    padding: 20px 20px 60px 20px;
+}
+
+
+.side-row-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+    width: 90%;
+}
+.side-row-container > div{
+    flex: 1;
+    font-weight: bold;
+    border:1px solid lightgray;
+    box-sizing:border-box;
+    text-align:center;
+    padding: 20px;
+    background-color: white;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+}
+
+.side-bar > div {
+    border: 1px solid blue;
+    box-sizing: border-box;
+    border-radius: 2%;
+    text-align: center;
+    height: 30%;
+    background-color: white;
+}
+
+.side-bar-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 82px;
+}
+.last{
+    width: 100%;
+    margin-right: 1%;
+}
+
+#mainlogo{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 1.5%;
+}
+.orders-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .orders-grid{
+     display: inline-grid;
+ }
+ .orders-number{
+     font-size: 125px;
+ }
+.orders-id{
+    font-size: 30px;
+}
