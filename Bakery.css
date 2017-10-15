@@ -1,30 +1,37 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin:0;
     padding:0;
-    background-size:100% auto;
     background-repeat: no-repeat;
     background-image: url("images/bakery-background.png");
 }
 
-#bakery-logo{
+.form-wraper {
+    position: relative;
+    display: block;
+    background-color: white;
+    width: 25%;
+    margin: 25% auto;
+    padding-bottom: 3%;
+    border-radius: 1%;
+}
+#bakery-top-left {
+    display: none;
+}
+#bakery-logo {
     display: block;
     margin: -50% auto 0 auto;
     position: relative;
+    width: 60%;
+    left: 3%;
 }
-#bakery-top-left{
 
-}
-#login-form {
-    position: absolute;
-    display: block;
-    background-color: white;
-    left: 52.75%;
-    top: 25.25%;
-    width: 26%;
-    padding-bottom: 5%;
-    border-radius: 1%;
-}
-.form-control{
+
+.form-control {
     text-align: right;
     background-color:#f0f0f0;
     margin: 0 auto;
@@ -33,19 +40,34 @@ body {
 
 }
 .glyphicon{
-    font-size: 1.5em;
+    font-size: 2.8em;
 }
 
-.btn
-{
+.btn {
     background-color:#41cadc;
     width: 70%;
     margin: 0 auto;
-    padding: 5%;
+    padding: 2.5%;
     display: block;
 }
 
-#mainlogo{
+#mainlogo {
     position: relative;
+}
+@media (min-width: 1919px) {
+    #bakery-top-left {
+        display: block;
+    }
+    .form-wraper {
+        position: absolute;
+        display: block;
+        background-color: white;
+        left: 52.75%;
+        top: 25%;
+        width: 25%;
+        margin: 0 auto;
+        padding-bottom: 3%;
+        border-radius: 1%;
+    }
 
 }

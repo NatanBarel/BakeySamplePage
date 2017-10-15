@@ -106,6 +106,7 @@ body {
 .orders-grid{
     display: inline-grid;
     font-family: Hs;
+    font-weight: bold;
 }
 .orders-number{
     font-size: 125px;
