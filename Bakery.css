@@ -16,7 +16,7 @@ body {
     background-color: white;
     width: 25%;
     margin: 25% auto;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
     border-radius: 1%;
 }
 #bakery-top-left {
@@ -30,12 +30,15 @@ body {
     left: 3%;
 }
 
+.form-group{
+    margin-bottom: 1%;
+}
 
 .form-control {
     text-align: right;
     background-color:#f0f0f0;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     padding: 5%;
 
 }
@@ -45,8 +48,8 @@ body {
 
 .btn {
     background-color:#41cadc;
-    width: 70%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5% auto;
     padding: 2.5%;
     display: block;
 }
@@ -66,8 +69,11 @@ body {
         top: 25%;
         width: 25%;
         margin: 0 auto;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
         border-radius: 1%;
+    }
+    .form-control{
+        font-size: x-large;
     }
 }
 @media only screen and (max-width: 500px){
@@ -75,9 +81,9 @@ body {
         position: relative;
         display: block;
         background-color: white;
-        width: 70%;
+        width: 80%;
         margin: 50% auto;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
         border-radius: 1%;
     }
 }
