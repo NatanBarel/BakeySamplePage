@@ -42,9 +42,6 @@ body {
     padding: 5%;
 
 }
-.glyphicon{
-    font-size: 2.8em;
-}
 
 .btn {
     background-color:#41cadc;
@@ -75,6 +72,9 @@ body {
     .form-control{
         font-size: x-large;
     }
+    .glyphicon{
+        font-size: 2.8em;
+    }
 }
 @media only screen and (max-width: 500px){
     .form-wraper{
@@ -85,6 +85,9 @@ body {
         margin: 50% auto;
         padding-bottom: 2%;
         border-radius: 1%;
+    }
+    .glyphicon{
+        font-size: 2.8em;
     }
 }
 
