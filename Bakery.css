@@ -69,5 +69,16 @@ body {
         padding-bottom: 3%;
         border-radius: 1%;
     }
-
 }
+@media only screen and (max-width: 500px){
+    .form-wraper{
+        position: relative;
+        display: block;
+        background-color: white;
+        width: 70%;
+        margin: 50% auto;
+        padding-bottom: 3%;
+        border-radius: 1%;
+    }
+}
+
